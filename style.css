@@ -1,0 +1,115 @@
+*{
+    f;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+header{
+    height: 50px;
+    background-color: #F24957;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-size: 22px;
+    display: flex;
+    color: white;
+}
+.nav-menu{
+    color: white;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    position: inherit;
+    margin-left: 900px;
+    transition: 0.5s;
+}
+.nav-menu li a{
+    margin:2rem 0;
+    text-decoration: none;
+    justify-content: right;
+    font-size: 0.9rem;
+    color:var(--color6);
+}
+#carrinho{
+    width: 50px;
+    height: 28px;
+}
+.nav-menu:hover{
+    cursor: pointer;
+}
+
+#floresta{
+
+    width: 100%;
+    height: 250px;
+}
+
+.fundo{
+    position: relative;
+    display: flex;
+}
+
+.textoimg{
+    font-weight: lighter;
+    top: 80px;
+    left: 65%;
+    text-align: right;
+    color: white;
+    right: 5%;
+    position: absolute;
+}
+
+.textoimg2{
+    font-size: small;
+    top: 150px;
+}
+
+.botao{
+    font-size: 11px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.botao:hover{
+    cursor: pointer;
+}
+
+.meio{
+    margin: 40px;
+    display: flexbox;
+    padding: 20px;
+}
+.subtitulo{
+    padding-left: 100px;
+    font-size: small;
+}
+
+.coluna{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.botoes{
+    text-align: center;
+    padding-top: 50px;
+    justify-content: center;
+    margin-left: 100px;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(46, 38, 38);
+    color: white;
+}
